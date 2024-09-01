@@ -1,0 +1,27 @@
+p {
+    background: #e5e5e5;
+}
+
+.items {
+    background: #e5e5e5;
+}
+
+th, td {
+    border: 1px solid grey;
+}
+
+img {
+    padding: 0%;
+}
+
+.btn-primary {
+    margin-left: 5px;
+    color: #fff;
+    background: royalblue;
+}
+
+.btn-primary:hover{
+    background:#fff;
+    border:2px solid #333;
+    color:#000;
+}

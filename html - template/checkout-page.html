@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helvete</title>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/4804588287.js" crossorigin="anonymous"></script>
+
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet" media="all">
+
+    <!--Icon-->
+    <link rel="icon" href="icon.ico">
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="assets/images/logo.png" alt="company logo" class="img-responsive">
+                </a>
+            </div>
+            <div class="menu-sidebar-content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar-list">
+                        <li>
+                            <a href="#">Płyty CD</a>
+                        </li>
+                        <li>
+                            <a href="#">Płyty winylowe</a>
+                        </li>
+                        <li>
+                            <a href="#">Koszulki</a>
+                        </li>
+                        <li>
+                            <a href="#">Akcesoria</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section-content section-content-p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" onsubmit="return false;" method="GET">
+                                <input class="au-input au-input-xl" type="text" name="search"
+                                    placeholder="Szukaj produktu ..." />
+                                <button class="au-btn-submit" type="submit">
+                                    Szukaj...
+                                </button>
+                            </form>
+                            <div class="cart-area d-n">
+                                <a href="shopping-detail.html">
+                                    <div class="total">19.22 <span> 2</span> </div> <i class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="account-wrap"></div>
+                    </div>
+                </div>
+            </header>
+            <!-- END HEADER DESKTOP-->
+
+            <!-- MAIN CONTENT-->
+			<div class="main-content page-m">
+				<div class="section-content section-content-p30 e-spc">
+					<div class="container-fluid">
+
+						<div class="form-area">
+							<h3>Dane kontaktowe</h3>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="input-space">
+										<input type="text" placeholder="Imię">
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="input-space">
+										<input type="text" placeholder="Nazwisko">
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="col-md-4">
+									<div class="input-space">
+										<input type="text" placeholder="Adres e-mail">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Form 2-->
+						<div class="form-area">
+							<h3>Adres dostawy</h3>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="input-space">
+										<input type="text" placeholder="Ulica i numer">
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="input-space">
+										<input type="text" placeholder="Miasto">
+									</div>
+								</div>
+
+								<div class="col-md-8">
+									<div class="input-space">
+										<select>
+											<option>Województwo/stan</option>
+											<option></option>
+											<option></option>
+											<option></option>
+											<option></option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-1"></div>
+								<div class="col-md-4">
+									<div class="input-space">
+										<input type="text" placeholder="Kod pocztowy">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input-space">
+							<label class="au-checkbox">
+								<input type="checkbox" checked="checked">
+								<span class="au-checkmark"></span> Adres rozliczeniowy taki sam jak adres dostawy
+							</label>
+						</div>
+
+						<div class="form-area">
+							<h3>Karta kredytowa</h3>
+							<div class="row">
+								<div class="col-md-2"> <label class="date">Typ karty</label></div>
+								<div class="col-md-6">
+									<div class="input-space">
+										<select>
+											<option>Visa</option>
+											<option></option>
+											<option></option>
+											<option></option>
+											<option></option>
+										</select>
+									</div>
+								</div>
+								
+								<div class="col-md-8">
+									<div class="input-space">
+										<input type="text" placeholder="Imię i naszwisko posiadacza">
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="col-md-6">
+									<div class="input-space">
+										<input type="text" placeholder="Numer karty">
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="input-space">
+										<input type="text" placeholder="CVV">
+									</div>
+								</div>
+								<div class="clearfix"></div>
+
+								<div class="col-md-2"> <label class="date">Ważna do: </label></div>
+								<div class="col-md-3">
+									<div class="input-space">
+										<select>
+											<option>Miesiąc</option>
+											<option></option>
+											<option></option>
+											<option></option>
+											<option></option>
+										</select>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="input-space">
+										<select>
+											<option>Rok</option>
+											<option></option>
+											<option></option>
+											<option></option>
+											<option></option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-area">
+							<h3>Szczegóły zamówienia</h3>
+							<b>Ilość (razem): 2</b>
+							<h4>DARMOWA dostawa</h4>
+							<B>Cena (razem): 19.99 zł</B>
+						</div>
+						<div class="text-center">
+							<button class="au-btn-submit" type="submit">Potwierdź</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- END PAGE CONTAINER-->
+
+</body>
+
+</html>

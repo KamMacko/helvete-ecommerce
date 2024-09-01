@@ -1,0 +1,13 @@
+th, td {
+    border: 1px solid grey;
+    color: #fff;
+}
+
+td {
+    color: #000;
+    margin-left: 5px;
+}
+
+h3 {
+    color: #fff;
+}
